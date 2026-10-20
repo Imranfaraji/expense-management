@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import {  GoogleAuthProvider, onAuthStateChanged,  signInWithPopup, signOut, } from 'firebase/auth';
 
 import { AuthContext } from "./AuthContext";
-import { auth } from "../firebase/firebase.init";
+import { auth } from "../../firebase/firebase.init";
 
 
 
