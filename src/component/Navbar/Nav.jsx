@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 import { 
   Wallet, 
   PlusCircle, 
@@ -10,8 +10,12 @@ import {
 } from 'lucide-react';
 import { NavLink } from 'react-router';
 
+
+
+
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
